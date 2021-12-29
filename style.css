@@ -1,0 +1,56 @@
+@font-face {
+	font-family: "boel";
+	src: url("font/boel.woff2") format('woff');
+}
+
+body {
+	font-family: boel;
+  	font-size: 16pt;
+}
+
+.sidenav {
+	width: 220px;
+	position: fixed;
+	z-index: 1;
+	top: 20px;
+	left: 10px;
+	background: #eee;
+	overflow-x: hidden;
+	padding: 8px 0;
+	border-top-left-radius: 10%;
+	border-top-right-radius: 10%;
+	border-bottom-right-radius: 10%;
+	border-bottom-left-radius: 10%;
+}
+
+/* The navigation menu links */
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	color: #818181;
+	display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+ 	color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+	margin-left: 220px; /* Same as the width of the sidebar */
+	padding: 16px 20px;
+	max-width: 700px;
+}
+
+.profile {
+	text-align: center;
+}
+.profile-pic {
+	max-width: 175px; 
+	border-radius: 50%;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+}
